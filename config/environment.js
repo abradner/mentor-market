@@ -9,8 +9,21 @@ module.exports = function(environment) {
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
-        // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
+        'ember-htmlbars': true,
+        'ember-routing-named-substates': true,
+        'composable-computed-properties': true,
+        'ember-routing-will-change-hooks': true,
+        'ember-metal-is-present': true,
+        'property-brace-expansion-improvement': true,
+        'ember-routing-multi-current-when': true,
+        'ember-runtime-item-controller-inline-class': true,
+        'ember-routing-fire-activate-deactivate-events': true,
+        'ember-testing-pause-test': true,
+        'ember-htmlbars-component-generation': true,
+        'ember-htmlbars-inline-if-helper': true,
+        'ember-htmlbars-attribute-syntax': true,
+        'ember-metal-injected-properties': true,
+        'ember-htmlbars-block-params': true
       }
     },
 

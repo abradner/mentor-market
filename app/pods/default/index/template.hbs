@@ -1,0 +1,25 @@
+<div class='row'>
+  <div class='col-md-12'>
+    <h3>Who Are We?</h3>
+    <p>Just a man with a van</p>
+  </div>
+</div>
+<div class='row'>
+  <div class='col-md-12'>
+    <h3>Get Started</h3>
+    <h4>I am a:</h4>
+      <p>
+        {{#link-to 'signup.student'}}
+          {{#paper-button raised=true classNames="paper-primary"}}
+            Student
+          {{/paper-button}}
+        {{/link-to}}
+        {{#link-to 'signup.mentor'}}
+          {{#paper-button raised=true classNames="paper-primary"}}
+            Mentor
+          {{/paper-button}}
+        {{/link-to}}
+      </p>
+  </div>
+</div>
+{{outlet}}
