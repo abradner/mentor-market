@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'mentor-market',
+    podModulePrefix: 'mentor-market/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
