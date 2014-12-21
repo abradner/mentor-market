@@ -20,11 +20,11 @@ var app = new EmberApp();
 // Bootstrap
 app.import('bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js');
 
- // Glyphicons
-var pickFiles = require('broccoli-static-compiler');
-var bootstrapFonts = pickFiles('bower_components/bootstrap-sass-official/assets/fonts/bootstrap', {
-   srcDir: '/',
-   destDir: '/fonts'
-});
+//  // Glyphicons
+// var pickFiles = require('broccoli-static-compiler');
+// var bootstrapFonts = pickFiles('bower_components/bootstrap-sass-official/assets/fonts/bootstrap', {
+//    srcDir: '/',
+//    destDir: '/fonts'
+// });
 
 module.exports = app.toTree();
